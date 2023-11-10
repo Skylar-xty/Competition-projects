@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<launch>
+	<rosparam file="/home/t718/qingzhou_ws/src/move_base/Goalparam.yaml" command="load"/>
+	<node pkg="move_base" type="simple_navigation_goals" name="simple_navigationgoals" output="screen"></node>
+	<node pkg="py" type="getpos.py" name="getpos" output="screen"></node>
+	<node pkg="py" type="server1.py" name="server" output="screen"></node>
+	
+</launch>

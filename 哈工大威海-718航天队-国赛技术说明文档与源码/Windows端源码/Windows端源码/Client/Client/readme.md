@@ -1,0 +1,1 @@
+运行程序需保证win10环境下，base环境的python版本为3.x且支持opencv2，工程中的canmera.py和camera.exe均为内部调用，需要传入特定参数，不能直接运行！

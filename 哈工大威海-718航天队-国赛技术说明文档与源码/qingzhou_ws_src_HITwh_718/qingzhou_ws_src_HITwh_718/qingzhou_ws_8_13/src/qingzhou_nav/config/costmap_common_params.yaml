@@ -1,0 +1,33 @@
+obstacle_layer:
+  enabled:              false
+  combination_method:   1
+  track_unknown_space:  false
+  origin_z: 0.0
+  z_voxels: 20
+  z_resolution: 0.1
+  unknown_cost_value: 0
+  unknown_threshold: 8
+  mark_threshold: 0
+  publish_voxel_map: false
+  obstacle_range: 6.0
+  raytrace_range: 7.0
+  #robot的中心为坐标原点
+  footprint: [[-0.2,-0.2],[-0.2,0.2],[0.2, 0.2],[0.3, 0],[0.2,-0.2]] #-0.05.-0.13;-0.4,0
+  #robot_radius: 0.25
+  inflation_radius: 0.2   #robot和障碍物保持的最小安全距离
+  #描述障碍物的最大高度和最小高度
+  max_obstacle_height: 0.40
+  min_obstacle_height: 0.03
+  observation_sources: scan 
+
+  scan: {sensor_frame: base_link,  observation_persistence: 0.0, 
+  max_obstacle_height: 0.3, min_obstacle_height: 0.05, data_type: LaserScan, topic: /scan, 
+  marking: true,clearing: true}
+
+inflation_layer:
+ enabled:              true
+ #cost_scaling_factor:  25    # exponential rate at which the obstacle cost drops off (default: 10)
+# inflation_radius:     0.08 #  # max. distance from an obstacle at which costs are incurred for planning paths.
+
+static_layer:
+ enabled: true

@@ -1,0 +1,10 @@
+<launch>
+    <!-- <node pkg="s_road" type="server.py" name="server" output="screen" /> -->
+    <!-- <node pkg="s_road" type="trackbars" name="trackbars" output="screen" /> -->
+    <!-- <node pkg="s_road" type="find" name="find" output="screen" /> -->
+    <!-- <node pkg="s_road" type="finds" name="finds" output="screen" /> -->
+    <node pkg="s_road" type="s_road" name="s_road" output="screen" />
+    <rosparam file="/home/t718/qingzhou_ws/src/s_road/params.yaml" command="load"/>
+    <node pkg="s_road" type="trafficLight" name="trafficLight" output="screen" />
+    <!-- <node pkg="s_road" type="vel" name="cmd_vel" output="screen" /> -->
+</launch>

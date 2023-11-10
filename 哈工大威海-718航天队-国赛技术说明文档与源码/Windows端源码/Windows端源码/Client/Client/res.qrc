@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/tb.ico</file>
+        <file>res/background.jpg</file>
+    </qresource>
+</RCC>

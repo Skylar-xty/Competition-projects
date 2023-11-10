@@ -1,0 +1,20 @@
+AreaMax: 347
+AreaMin: 37
+DistMax: 60
+DistMin: 6
+hmax: 150
+hmin: 92
+rosdistro: 'melodic
+
+  '
+roslaunch:
+  uris: {host_10_236_11_228__34595: 'http://10.236.11.228:34595/', host_10_236_11_228__35415: 'http://10.236.11.228:35415/',
+    host_10_236_11_228__36713: 'http://10.236.11.228:36713/'}
+rosversion: '1.14.13
+
+  '
+run_id: bfeeccca-070f-11ed-be73-fcb3bceffd17
+smax: 141
+smin: 40
+vmax: 255
+vmin: 0

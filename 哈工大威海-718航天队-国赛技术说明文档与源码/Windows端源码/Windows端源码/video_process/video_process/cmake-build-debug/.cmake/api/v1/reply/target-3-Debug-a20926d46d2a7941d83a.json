@@ -1,0 +1,309 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "3.exe"
+		},
+		{
+			"path" : "3.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/MinGWver"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/sources/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/sources/include/opencv"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/sources/modules/core/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/sources/modules/flann/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/sources/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/sources/modules/ml/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/sources/modules/photo/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/sources/modules/video/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/sources/modules/dnn/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/sources/modules/imgcodecs/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/sources/modules/shape/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/sources/modules/videoio/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/sources/modules/highgui/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/sources/modules/superres/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/sources/modules/ts/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/sources/modules/features2d/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/sources/modules/calib3d/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/sources/modules/objdetect/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/sources/modules/stitching/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/opencv/sources/modules/videostab/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "3::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\opencv\\MinGWver\\lib\\libopencv_dnn345.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\opencv\\MinGWver\\lib\\libopencv_ml345.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\opencv\\MinGWver\\lib\\libopencv_objdetect345.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\opencv\\MinGWver\\lib\\libopencv_shape345.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\opencv\\MinGWver\\lib\\libopencv_stitching345.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\opencv\\MinGWver\\lib\\libopencv_superres345.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\opencv\\MinGWver\\lib\\libopencv_videostab345.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\opencv\\MinGWver\\lib\\libopencv_calib3d345.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\opencv\\MinGWver\\lib\\libopencv_features2d345.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\opencv\\MinGWver\\lib\\libopencv_flann345.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\opencv\\MinGWver\\lib\\libopencv_highgui345.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\opencv\\MinGWver\\lib\\libopencv_photo345.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\opencv\\MinGWver\\lib\\libopencv_video345.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\opencv\\MinGWver\\lib\\libopencv_videoio345.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\opencv\\MinGWver\\lib\\libopencv_imgcodecs345.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\opencv\\MinGWver\\lib\\libopencv_imgproc345.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\opencv\\MinGWver\\lib\\libopencv_core345.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "3",
+	"nameOnDisk" : "3.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,25 @@
+# 一些参数的初始化，只是为了不出现Not Set，并非静止不变
+Tstart: false
+Sstart: false
+exit: false
+goal_index: -1
+Pos: true
+pathpointchange: false
+px1: 2.28077
+py1: -3.17964
+pa1: 0
+pb1: 0
+pc1: -0.713
+pw1: 0.7
+px2: -2.046
+py2: -6.024
+pa2: 0
+pb2: 0
+pc2: 0.715
+pw2: 0.699
+px3: 0
+py3: 0
+pa3: 0
+pb3: 0
+pc3: 0
+pw3: 1

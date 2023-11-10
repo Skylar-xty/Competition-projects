@@ -1,0 +1,40 @@
+AreaMax: 150
+AreaMin: 4
+DistMax: 26
+DistMin: 0
+hmax: 124
+hmin: 100
+smax: 141
+smin: 25
+vmax: 255
+vmin: 0
+# c1: 0.01
+# c2: 0.01
+# c3: 0.012
+# offset: 4
+# 有长宽比时
+# AreaMax: 357
+# AreaMin: 78
+# DistMax: 60
+# DistMin: 6
+# hmax: 134
+# hmin: 26
+# smax: 151
+# smin: 40
+# vmax: 255
+# vmin: 0
+# # 速度0.3
+# c1: 0.007
+# c2: 0.009
+# c3: 0.009
+# offset: 9
+# 速度0.4
+c1: 0.0093333
+c2: 0.012
+c3: 0.012
+offset: 7
+# # 速度0.45
+# c1: 0.0112
+# c2: 0.014
+# c3: 0.014
+# offset: 6
